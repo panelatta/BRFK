@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <string.h>
-#include "BRFK.h"
+#include "include/BRFK.h"
 
 int _POINTER_CROSS_CHECK(_uchar_* mem, _uchar_* p, int _MEMSIZE) {
     if (!p) {

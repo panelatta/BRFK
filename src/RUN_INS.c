@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <string.h>
-#include "BRFK.h"
+#include "include/BRFK.h"
 
 void _RUN_INS(_uchar_* mem, _uchar_* p, int _MEMSIZE, char _ins_, FILE* fp) {
     switch (_ins_) {

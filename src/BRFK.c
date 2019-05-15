@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "BRFK.h"
+#include "include/BRFK.h"
 
 int main(int argc, char* argv[]) {
     _uchar_* mem = (_uchar_*)malloc(sizeof(_uchar_) * _MEM_SIZE_);
